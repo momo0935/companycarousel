@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+padding:0 ;
+
+}
+
+.ul{
+    list-style: none;
+}
+
+.main{
+width: 1200px;
+height: 460px;
+left: 200px;
+margin: 30px auto;
+overflow: hidden;
+position: relative;
+}
+
+.banner{
+
+    width: 1200px;
+    height: 460px;
+    position: relative;
+
+}
+
+.banner-slider{
+
+   position:absolute ;
+   display: none;
+   /* border-radius: 40%; */
+   background-repeat:no-repeat ;
+
+}
+
+.slider-active{
+display: block;
+
+}
+
+.button{
+
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left: 24px;
+    top: 50%;
+    margin-top: -250px;
+    /* display: center center; */
+    background: no-repeat center center;
+}
+
+/* 
+position: absolute;
+width: 30px;
+height: 50px;
+left: 244px;
+top: 50%;
+/* margin-top: -40px; */
+/* background-color: green; */
+/* display: center center; */
+
+
+
+.button:hover{
+    background: #333;
+    opacity: 0.5;
+}
+
+.next{
+    left: auto;
+    right: -780px;
+    transform: rotate(180deg);
+}
+.dots{
+position: absolute;
+right: 10px;
+bottom: 24px;
+text-align: right;
+
+}
+.dots span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 40%;
+    margin: 8px;
+    background:rgba(7,17,27,0.4);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.8);
+}
+
+
+.dots span.active{
+
+box-shadow: 0 0 0 2px rgba(7,17,27,0.4) insent;
+background:white;
+}
+/* 
+.banner-slider{
+
+    width: 1200px;
+    height: 460px;
+background-repeat:no-repeat ;
+
+} */
